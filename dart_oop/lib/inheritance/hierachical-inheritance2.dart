@@ -17,14 +17,14 @@ class Segitiga extends Bangun{
 }
 
  void main(List<String> args) {
-  Lingkaran lingkaran = new Lingkaran();
+  Lingkaran lingkaran = Lingkaran();
 
   lingkaran.diameter1 = 10.5;
   lingkaran.diameter2 = 20.0;
 
   print('luas lingkaran : ${lingkaran.luas()}');
 
-  Segitiga segitiga = new Segitiga();
+  Segitiga segitiga = Segitiga();
 
   segitiga.diameter1 = 10.5;
   segitiga.diameter2 = 20.0;

@@ -10,16 +10,16 @@ class Employee {
   }
 
   void setId(int id) {
-    this._id= id;
+    _id= id;
   }
   void setNama(String nama) {
-    this._nama= nama;
+    _nama= nama;
   }
   
 }
 
 void main(List<String> args) {
-  Employee employee = new Employee();
+  Employee employee = Employee();
 
   employee.setId(4);
   employee.setNama('amirul');

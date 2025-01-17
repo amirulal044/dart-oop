@@ -11,7 +11,7 @@ class ParentClass {
 class ChildClass extends ParentClass {
   int age;
 
-  ChildClass(String name, this.age) : super(name);
+  ChildClass(super.name, this.age);
 
   @override
   void introduce() {

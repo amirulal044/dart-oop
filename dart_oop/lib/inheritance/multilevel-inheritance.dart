@@ -11,7 +11,7 @@ class Kendaraan {
 class Mobil extends Kendaraan {
   int jumlahRoda;
 
-  Mobil(String jenis, this.jumlahRoda) : super(jenis);
+  Mobil(super.jenis, this.jumlahRoda);
 
   // Method untuk menggambarkan mobil
   @override
@@ -24,7 +24,7 @@ class Mobil extends Kendaraan {
 class Tesla extends Mobil {
   String model;
 
-  Tesla(String jenis, int jumlahRoda, this.model) : super(jenis, jumlahRoda);
+  Tesla(super.jenis, super.jumlahRoda, this.model);
 
   @override
   void deskripsi() {

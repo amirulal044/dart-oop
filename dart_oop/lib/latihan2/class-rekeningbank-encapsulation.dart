@@ -16,7 +16,7 @@ class RekeningBank {
   void setor(double jumlah) {
     if (jumlah > 0) {
       _saldo += jumlah;
-      print("Berhasil setor: \$${jumlah}. Saldo sekarang: \$$_saldo");
+      print("Berhasil setor: \$$jumlah. Saldo sekarang: \$$_saldo");
     } else {
       print("Jumlah setor harus lebih besar dari 0.");
     }
@@ -25,7 +25,7 @@ class RekeningBank {
   void tarik(double jumlah) {
     if (jumlah > 0 && jumlah <= _saldo) {
       _saldo -= jumlah;
-      print("Berhasil tarik: \$${jumlah}. Saldo sekarang: \$$_saldo");
+      print("Berhasil tarik: \$$jumlah. Saldo sekarang: \$$_saldo");
     } else if (jumlah > _saldo) {
       print("Saldo tidak cukup.");
     } else {

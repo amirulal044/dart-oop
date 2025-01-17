@@ -12,10 +12,10 @@ class Guru{
   }
 
   void tampilkan(){
-    print('nama : ${this.nama}');
-    print('umur : ${this.umur}');
-    print('mata pelajaran : ${this.mataPelajaran}');
-    print('gaji : ${this.gaji}\n');
+    print('nama : ${nama}');
+    print('umur : ${umur}');
+    print('mata pelajaran : ${mataPelajaran}');
+    print('gaji : ${gaji}\n');
   }
 }
 

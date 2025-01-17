@@ -11,7 +11,7 @@ class Binatang {
 class Kucing extends Binatang {
   String jenisBulu;
 
-  Kucing(String jenis, this.jenisBulu) : super(jenis);
+  Kucing(super.jenis, this.jenisBulu);
 
   void tidur() {
     print('Kucing tidur dengan nyenyak.');
