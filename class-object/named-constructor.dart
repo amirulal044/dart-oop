@@ -17,7 +17,7 @@ class Student{
 
 void main(){
   Student student =Student.namedConstructor('amirul', 20, 4);
-  print('nama : ${student.name}');
+  print('nama : ${student.nama}');
   print('umur : ${student.umur}');
   print('rollNumber : ${student.rollNumber}');
 }

@@ -4,7 +4,7 @@ class BungaSederhana{
   double? waktu;
 
   double bunga(){
-    return(pokok! * sekuBunga! * waktu!) / 100;
+    return(pokok! * sukuBunga! * waktu!) / 100;
 
   }
 }

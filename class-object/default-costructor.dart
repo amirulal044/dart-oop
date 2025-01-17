@@ -1,6 +1,6 @@
 class Laptop {
   String? merk;
-  int? harga:
+  int? harga;
 
   Laptop(){
     print("ini mobil");

@@ -11,7 +11,7 @@ class Person{
     umur = json['umur'];
   }
 
-  persegi.fromJsonString(String jsonString){
+  Person.fromJsonString(String jsonString){
     Map<String, dynamic> json = jsonDecode(jsonString);
     nama = json ['nama'];
     umur = json ['umur'];

@@ -3,7 +3,7 @@ class Persegipanjang {
   double? lebar;
 
   double area(){
-    return panjang! * lebar;
+    return panjang! * lebar!;
 
   }
 }

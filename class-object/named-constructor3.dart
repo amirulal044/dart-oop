@@ -17,11 +17,11 @@ class Animal{
 }
 
 void main(){
-  Animal animal = Animal.namedConstructor('kucing', 2)
+  Animal animal = Animal.namedConstructor('kucing', 2);
   print('nama: ${animal.nama}');
   print('umur: ${animal.umur}');
 
-  Animal animal2 = Animal.namedConstructor2('kodok', 2)
+  Animal animal2 = Animal.namedConstructor2('kodok');
   print('nama: ${animal2.nama}');
 
 }

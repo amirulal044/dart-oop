@@ -3,7 +3,7 @@ class Mobil{
   String? model;
   int? tahun;
 
-  mobil(String merk, String model, int tahun) {
+  Mobil(String merk, String model, int tahun) {
     this.merk = merk;
     this.model = model;
     this.tahun = tahun;

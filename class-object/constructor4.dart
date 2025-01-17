@@ -21,7 +21,7 @@ class Guru{
 
 
 void main(){
-  Guru guru2 =Guru('Budi', 30, 'Matematika', 50000.0);
+  Guru guru1 =Guru('Budi', 30, 'Matematika', 50000.0);
   guru1.tampilkan();
   Guru guru2 =Guru('Al', 20, 'Program', 10000.0);
   guru2.tampilkan();

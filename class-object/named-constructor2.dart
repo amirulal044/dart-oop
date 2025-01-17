@@ -18,7 +18,7 @@ class Mobile{
 
 void main(){
   var mobile1= Mobile ('samsung', 'hitam', 10000);
-  mobil1.displayMobileDetails();
+  mobile1.displayMobileDetails();
   var mobile2= Mobile ('iphone', 'merah', 20000);
-  mobil2.displayMobileDetails();
+  mobile2.displayMobileDetails();
 }

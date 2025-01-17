@@ -3,7 +3,7 @@ class Hewan {
   int? jumlahKaki;
   int? umur;
 
-  void dsiplay(){
+  void display(){
     print('nama hewan :$nama');
     print('jumlah kaki : $jumlahKaki');
     print('umur : $umur');
